@@ -12,18 +12,12 @@ h1{
 
 }
 
-h3, h4{
+h3, h4, #yearUpInfoFooter, p, .card-body{
     text-align: center;
 }
-p, .card-body{
-    text-align:center;
-}
+
 
 .card{
     align-items: stretch; 
     padding: 20px;
-}
-
-#yearUpInfoFooter{
-    text-align:center;
 }
