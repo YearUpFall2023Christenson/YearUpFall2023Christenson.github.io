@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 3</title>
+        <!-- Link To CSS -->
+        <link rel="stylesheet" href="Week3/stylesweek3.css">
+        <!-- Box Icons -->
+        <link rel="'stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+        
+    </head>
+    <body>
+        <!-- Navbar -->
+        <header>
+            <a href="#" class="logo">Week 3</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+
+            <ul class="navbar">
+                <li><a href="#home" class="home-active">Home</a></li>
+                <li><a href="Week3/week3sections.html">Sections</a></li>
+                <li><a href="Week3/week3exercise.html">Exercise</a></li>
+                <li><a href="#About">About</a></li>
+            </ul>
+        </header>
+        <!-- Home -->
+        <section class="home swiper" id="home">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide container">
+                    <img src="Week3/Week3Images/JavascriptFundamentalsPics/1.png" alt="">
+                    <div class="home-text">
+                        <span>Study Now</span>
+                        <h1>Gain The Knowledge <br>of JavaScript <br> Fundamentals</h1>
+                        <a href="Week3/week3sections.html" class="btn">Explore</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide container">
+                    <img src="Week3/Week3Images/JavascriptFundamentalsPics/JavascriptFundamanetalsPractice.png" alt="">
+                    <div class="home-text">
+                        <span>Practice Now</span>
+                        <h1>Practice Your <br>Javascript Fundamentals <br> Skills </h1>
+                        <a href="Week3/week3exercise.html" class="btn">Explore</a>
+                </div>
+
+               
+                
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+  
+            
+        </section>
+
+        <!-- Exercise -->
+        <section class="exercise" id="exercise">
+            <div class="heading">
+                <h1>Practice Gives Your Confidence and Experience!</h1>
+            </div>
+            <div class="exercise-container">
+                <div class="box">
+                    <div class="exercise-img">
+                        <img src="img/Mt_Jefferson_Sunrise_SWM_1810264LND8_1-1-6_sqsp.jpg" alt="">
+                    </div>
+                    <div class="exercise-text">
+                        <h2>Section 2</h2>
+                    </div>
+                    <i class='bx bx-right-arrow-circle mountains-icon'></i>
+                </div>
+
+                <div class="box">
+                    <div class="exercise-img">
+                        <img src="img/Mount-Adams-RecreationA-Around.jpg" alt="">
+                    </div>
+                    <div class="exercise-text">
+                        <h2>Section 3</h2>
+                    </div>
+                    <i class='bx bx-right-arrow-circle mountains-icon'></i>
+                </div>
+
+                <div class="box">
+                    <div class="exercise-img">
+                        <img src="img/mount-washington-state.jpg" alt="">
+                    </div>
+                    <div class="exercise-text">
+                        <h2>Section 4</h2>
+                    </div>
+                    <i class='bx bx-right-arrow-alt mountains-icon'></i>
+                </div>
+            </div>
+        </section>
+        <!-- Video -->
+        <section class="videos" id="videos">
+            <div class="heading">
+                <h1>Be the Programmer You Know You Can Be!</h1>
+            </div>
+            <div class="video-container">
+                <video src="Week3/Week3Images/JavascriptFundamentalsPics/JavaScriptVideoWeek3.mp4" muted autoplay loop></video>
+            </div>
+        </section>
+        <!--About-->
+        <section class="about" id="about">
+            <div class="about-text">
+                <h1> Week 3 Javascript Fundamentals </h1>
+                <p>Week 3 of the course "Javascript Fundamentals" covers various topics, including an introduction to JavaScript, working with numbers, conditionals, and scripting techniques. 
+                    It includes sections on programming concepts, data types, arithmetic operations, 
+                    and DOM manipulation for tasks like greeting users and creating a calculator or temperature converter.
+                </p>
+                <p>It includes sections on programming concepts, data types, arithmetic operations, 
+                    and DOM manipulation for tasks like greeting users and creating a calculator or temperature converter</p>
+            </div>
+            <div class="about-img">
+                <img src="Week3/Week3Images/JavascriptFundamentalsPics/1.png" alt=""style="width: 100px; height: 150px;">
+            </div>
+            </div>
+
+        </section>
+        <section class="footer">
+            <div class="footer-box">
+                <h2> Week 3 JavaScript Fundamentals</h2>
+                <p></p>
+            </div>
+            <div class="footer-box">
+                <h3>JavaScript Fundamentals Week 3 </h3>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">PluralSight</a></li>
+                <li><a href="#">Year Up</a></li>
+                <li><a href="#">RaidSquad</a></li>
+                
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="Week3/scripts/week3scrips.js"></script>
+
+  <!--Initialize Swiper-->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+    </body>
+</html>
