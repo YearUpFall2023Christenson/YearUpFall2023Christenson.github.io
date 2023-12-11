@@ -115,6 +115,7 @@ body {
     height: 25%;
     justify-content: center;
     object-fit: contain;
+    margin: 50px auto 50px auto;
   }
   
 .swiper-pagination-bullet{
@@ -123,11 +124,13 @@ body {
 .swiper-pagination-bullet-active {
     background: var(--bf-color); 
 }
-
+.content-container {
+    padding-top: 60px;
+}
 
 .home-text {
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
