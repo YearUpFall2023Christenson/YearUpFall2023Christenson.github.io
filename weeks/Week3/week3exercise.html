@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 3</title>
+        <!-- Link To CSS -->
+        <link rel="stylesheet" href="stylesweek3.css">
+        <!-- Box Icons -->
+        <link rel="'stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+        
+    </head>
+    <body></body>
+        <!-- Navbar -->
+        <header>
+            <a href="#" class="logo">Week 3</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+
+            <ul class="navbar">
+                <li><a href="/weeks/week3.html">Home</a></li>
+                <li><a href="week3sections.html" class="sections-active">Sections</a></li>
+                <li><a href="week3exercise.html">Exercise</a></li>
+                <li><a href="week3projects.html">Projects</a></li>
+            </ul>
+        </header>
+
+ <!-- Swiper -->
+ <div class="content-container"></div>
+ <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="Week3Images/JavascriptFundamentalsPics/2.png" />
+        <div class="home-text">
+                  
+            <a href="week3section1.html" class="btn">Study</a>
+        </div>
+    </div>
+      <div class="swiper-slide">
+        <img src="Week3Images/JavascriptFundamentalsPics/3.png" />
+        <div class="home-text">
+                  
+            <a href="week3section2.html" class="btn">Study</a>
+        </div>  
+    </div>
+      <div class="swiper-slide">
+        <img src="Week3Images/JavascriptFundamentalsPics/4.png" />
+        <div class="home-text">
+                  
+            <a href="week3section3.html" class="btn">Study</a>
+        </div>  
+    </div>
+      <div class="swiper-slide">
+        <img src="Week3Images/JavascriptFundamentalsPics/5.png" />
+        <div class="home-text">
+                  
+            <a href="week3section4.html" class="btn">Study</a>
+        </div>  
+        </div>
+      <div class="swiper-slide">
+        <img src="Week3Images/JavascriptFundamentalsPics/5.png" />
+        <div class="home-text">
+                  
+            <a href="week3section4.html" class="btn">Study</a>
+        </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="Week3Images/JavascriptFundamentalsPics/5.png" />
+      <div class="home-text">
+                
+          <a href="week3section4.html" class="btn">Study</a>
+      </div>    
+    </div>
+     
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+        <!--Sections-->
+        <div class="content-container">
+            
+              </div>
+        </div>
+
+
+         <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+    </body>
+
+
+    </html>
