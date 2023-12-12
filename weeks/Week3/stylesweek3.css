@@ -115,7 +115,7 @@ body {
     height: 25%;
     justify-content: center;
     object-fit: contain;
-    margin: 50px auto 50px auto;
+    margin: 10px auto 50px auto;
   }
   
 .swiper-pagination-bullet{
@@ -192,7 +192,7 @@ body {
     left: 1rem;
 }
 .exercise-text h2{
-    color: var(--bf-color);
+    color: #0153A0;
     font-weight: 400;
     font-size: 1rem;
 }
